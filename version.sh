@@ -1,3 +1,3 @@
-aws lambda create-alias --function-name PruebaABC --name Develop --function-version 10 --description "Desarrollo"
-aws lambda publish-version --function-name PruebaABC
-#aws lambda update-alias --function-name PruebaABC --name Develop --function-version 6 --description "Desarrollo"
+#aws lambda create-alias --function-name PruebaABC --name Develop --function-version 10 --description "Desarrollo"
+#aws lambda publish-version --function-name PruebaABC
+aws lambda update-alias --function-name PruebaABC --name Develop --function-version 1 --description "Desarrollo alias"
